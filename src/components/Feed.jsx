@@ -12,7 +12,6 @@ const Feed = () => {
     )
   }, [selectedCategory])
 
-  const change = 'new'
   return (
     <Stack sx={{ flexDirection: { sx: 'Column', md: 'Row' } }}>
       <Box
