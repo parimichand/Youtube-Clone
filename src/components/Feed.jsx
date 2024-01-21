@@ -11,7 +11,6 @@ const Feed = () => {
       setBomma(data.items)
     )
   }, [selectedCategory])
-  const var = "var"
   return (
     <Stack sx={{ flexDirection: { sx: 'Column', md: 'Row' } }}>
       <Box
