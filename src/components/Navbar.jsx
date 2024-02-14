@@ -18,6 +18,17 @@ const Navbar = () => (
     <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
       <img src={logo} alt="logo" height={45} />
     </Link>
+    <p
+      style={{
+        color: 'white',
+        fontFamily: 'revert-layer',
+        display: 'flex',
+        fontWeight: '23px',
+        fontSize: '20px',
+      }}
+    >
+      Implemented Frontend Development Skills In My YouTubeClone Project
+    </p>
     <SearchBar />
   </Stack>
 )
